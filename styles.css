@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -15,9 +16,26 @@
 
 .sidebar {
     background-color: #059669;
+    color: white;
     grid-row: 1 / 3;
+    padding: 30px 50px 30px 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
+.sidebar:nth-child(n + 1) {
+    font-size: 1rem;
+}
+
+.sidebar a:link, .sidebar a:visited{
+    color: white;
+}
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .header {
     grid-column: 2 / 3;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
@@ -26,4 +44,12 @@
 .main-content {
     background-color: #f0fdf4;
     grid-column: 2 / 3;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: black;
 }
