@@ -97,14 +97,28 @@ label img {
 .main-card {
     border: solid green 3px;
     border-radius: 20px;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    padding: 20px;
 }
+
 
 .sidebar-follow {
     grid-area: 2 / 3 / 3 / 4;
+    margin: 20px 20px 20px 0px;
+    display: grid;
+    grid-template-rows: 60% 1fr;
+}
+
+.suggested-follow, .suggested-UNfollow {
     border: solid gray 3px;
+    border-radius: 20px;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+a:hover {
+    transform: scale(1.10);
 }
