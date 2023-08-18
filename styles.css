@@ -112,7 +112,24 @@ label img {
 .suggested-follow, .suggested-UNfollow {
     border: solid gray 3px;
     border-radius: 20px;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    padding: 20px;
 }
+
+.suggested-follow {
+    margin-bottom: 20px;
+}
+
+.suggested-follow div, .suggested-UNfollow div{
+    height: 20px;
+    width: auto;
+    display: flex;
+    font-size: .75rem;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+
 
 a {
     text-decoration: none;
