@@ -71,6 +71,15 @@ form label{
     margin-left: 10px;
 }
 
+.profile-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    margin: 20px 0 0 40px;
+}
+
 .search-area input[type="text"] {
     padding: 15px 10px;
     border-radius: 20px;
